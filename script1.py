@@ -7,5 +7,5 @@ nr = InitNornir(config_file="config.yaml")
 def test_connect(task):
   task.run(task=netmiko_send_command, command_string="show configuration")
  
-results = nr.run(task=test_connect, name="TEST SCRIPT!")
+results = nr.run(task=test_connect, name="TEST SCRIPT AGAIN!")
 print_result(results)
