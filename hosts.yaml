@@ -1,11 +1,11 @@
 ---
 
 R1:
-  hostname: 192.168.4.101
-  platform: "juniper_junos"
-  username: "john"
-  password: "Juniper1"
+  hostname: 192.168.2.89
+  platform: "cisco_ios"
+  username: "admin"
+  password: "adminadmin"
   groups:
-    - juniper_group
+    - cisco_group
   data:
-    device_name: "R1"
+    device_name: "csr63"
